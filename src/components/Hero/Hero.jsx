@@ -17,7 +17,7 @@ export const Hero = () => {
       </div>
       <img
         src={getImageUrl("hero/bwavatar.png")}
-        alt="Hero image of me"
+        alt="A black and white potrait of me with a colored background"
         className={styles.heroImg}
       />
     </section>
