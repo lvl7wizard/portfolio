@@ -18,7 +18,7 @@
     {
       "title": "CASIO SL-300SV",
       "imageSrc": "projects/calculatorlaptop.png",
-      "description": "After reading up about CSS Grid I chose to put my knowledge into practice by copying a pre-existing design. For this project I created a replica of a classic calculator, the Casio SL-300SV. The calculator was built using JavaScript and React and does all your favourite sums.",
+      "description": "After reading up about CSS Grid I chose to put my knowledge into practice by copying a pre-existing design. For this project I created a replica of a classic calculator, the Casio SL-300SV. The project utilies various React hooks in combination with equations written in JavaScript to perform the functionality of the calculator.",
       "skills": ["React", "Javascript", "HTML", "CSS"],
       "demo": "https://casio-sl-300sv.netlify.app",
       "source": "https://github.com/lvl7wizard/calculator-app"
