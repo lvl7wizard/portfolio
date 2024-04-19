@@ -1,0 +1,81 @@
+@import "../../vars.css";
+
+.container {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.title {
+  color: var(--color-primary);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-top: 38px;
+}
+
+p {
+    color: var(--color-text);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btnContainer {
+    display: flex;
+    padding-bottom: 38px;
+}
+
+.projectsBtn {
+    display: block;
+    text-decoration: none;
+    color: var(--color-primary);
+    background-color: rgba(0, 0, 0, 0.0);
+    border: solid 3px var(--color-primary);
+    border-radius: 35px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    padding: 17px 25px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);
+    transition: 0.5s;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  }
+
+  .skillsBtn {
+    display: none;
+    text-decoration: none;
+    color: var(--color-primary);
+    background-color: rgba(0, 0, 0, 0.0);
+    border: solid 3px var(--color-primary);
+    border-radius: 35px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    padding: 17px 25px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);
+    transition: 0.5s;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  }
+
+@media screen and (max-width: 830px) {
+    .container {
+        width: 80vw;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .projectsBtn {
+        display: none;
+    }
+
+    .skillsBtn {
+        display: block;
+    }
+
+    .p {
+        font-size: 19px;
+    }
+}

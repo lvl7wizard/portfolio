@@ -1,0 +1,34 @@
+[
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "React Native",
+      "imageSrc": "skills/reactnative.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "skills/node.png"
+    },
+    {
+      "title": "PostgreSQL",
+      "imageSrc": "skills/postgresql.png"
+    },
+    {
+      "title": "Express",
+      "imageSrc": "skills/express.png"
+    }
+  ]

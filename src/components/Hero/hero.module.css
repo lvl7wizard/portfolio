@@ -1,0 +1,98 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: calc(100vh - 5vh);
+  gap: 2.5%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 1;
+}
+
+.title {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  margin-bottom: 33px;
+  letter-spacing: 4px;
+  color: var(--color-primary);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.description {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 52px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.contactBtn {
+  text-decoration: none;
+  color: var(--color-primary);
+  background-color: rgba(0, 0, 0, 0.0);
+  border: solid 3px var(--color-primary);
+  border-radius: 35px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  padding: 17px 25px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);
+  transition: 0.5s;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.contactBtn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.heroImg {
+  width: 30vw;
+  border-radius: 50%;
+  background: #c08552;
+  border: 4px solid #f4faff;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .content {
+    align-items: center;
+    text-align: center;
+    min-height: calc(90vh - 45vw);
+    justify-content: space-evenly;
+    gap: 25px;
+    margin-bottom: 5vh;
+  }
+
+  .title {
+    font-size: 50px;
+    margin-bottom: 0px;
+  }
+
+  .heroImg {
+    width: 45vw;
+    max-width: 40vh;
+    min-width: 100px;
+  }
+
+  .description {
+    font-size: 19px;
+    margin-bottom: 0px;
+  }
+}
