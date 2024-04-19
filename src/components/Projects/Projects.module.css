@@ -32,7 +32,7 @@
     padding-bottom: 38px;
 }
 
-.backToTheTopBtn {
+.toTheTopBtn {
     text-decoration: none;
     color: var(--color-primary);
     background-color: rgba(0, 0, 0, 0.0);
@@ -47,7 +47,7 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   }
 
-  .backToTheTopBtn:hover {
+  .toTheTopBtn:hover {
     background-color: rgba(0, 0, 0, 0.2);
   }
 

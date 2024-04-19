@@ -14,8 +14,8 @@ export const Projects = () => {
         })}
       </div>
       <div className={styles.btnContainer}>
-        <a href="#" className={styles.backToTheTopBtn}>
-          Back to the top ↑
+        <a href="#" className={styles.toTheTopBtn}>
+          To the top ↑
         </a>
         </div>
     </section>
