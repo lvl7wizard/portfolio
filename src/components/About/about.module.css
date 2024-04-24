@@ -25,7 +25,8 @@ p {
 
 .btnContainer {
     display: flex;
-    padding-bottom: 38px;
+    margin-top: 10px;
+    margin-bottom: 38px;
 }
 
 .projectsBtn {

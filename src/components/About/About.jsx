@@ -9,9 +9,9 @@ export const About = () => {
           I picked up coding as a hobby in 2020. I loved the combination of making things 🎨, problem solving 🕹️, and learning 💡.
         </p>
         <p>
-          After being made redundant from my previous job in October 2023, I took the opportunity to take my coding to the next level by enrolling for a 3-month full-time Software Engineering bootcamp with a top-rated organisation called Northcoders. 
+          In October 2023, I took the opportunity to take my coding to the next level by enrolling for a 3-month full-time Software Engineering bootcamp with a top-rated organisation called Northcoders. 
         </p>
-        <p>Throughout the course I learnt the fundamentals of frontend and backend web development and gained hands on experience with popular industry practices and techniques.</p>
+        <p>Throughout this course I learnt the fundamentals of frontend and backend web development and gained hands on experience with popular industry practices and techniques.</p>
         <p>
           I'm now looking for a proffesional role where I can utilise my skills and continue learning from more experienced people in the field.  
         </p>
