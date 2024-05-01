@@ -6,15 +6,23 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  z-index: 1;
+  position: relative;
 }
 
 .title {
-  margin-top: 38px;
   color: var(--color-primary);
-  font-size: 35px;
+  font-size: 80px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  /* margin-top: 38px; */
+  color: transparent;
+  background: linear-gradient(
+  180deg, var(--color-2) 50%,
+    var(--color-3) 50%, var(--color-3) 100%
+  );
+  background-clip: text;
 }
 
 .skillsContainer {
@@ -57,8 +65,9 @@
 
 .skill p {
   font-size: 20px;
-  font-family: var(--font-roboto);
-  font-weight: 300;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 200;
+
 }
 
 .btnContainer {
@@ -68,22 +77,21 @@
 
 .projectsBtn {
   display: none;
-  text-decoration: none;
-  color: var(--color-primary);
-  background-color: rgba(0, 0, 0, 0.0);
-  border: solid 3px var(--color-primary);
-  border-radius: 35px;
   font-size: 30px;
-  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-text);
+  background-color: var(--color-4);
+  border: solid 3px var(--color-text);
+  border-radius: 20px;
   letter-spacing: 1.75px;
-  padding: 17px 25px;
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);
+  padding: 15px 15px;
   transition: 0.5s;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+  letter-spacing: 4px;
 }
 
 .projectsBtn:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: var(--color-text) 0px 0px 12px;
 }
 
 @media screen and (max-width: 830px) {
@@ -112,5 +120,8 @@
   
   .skillImageContainer img {
     width: 50px;
+  }
+  .title {
+    font-size: 15vw;
   }
 }

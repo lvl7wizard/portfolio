@@ -4,71 +4,71 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
-  min-height: calc(100vh - 5vh);
+  margin-left: 20%;
+  margin-right: 20%;
+  min-height: calc(100vh - 4vh - 23px);
   gap: 2.5%;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   color: var(--color-text);
   z-index: 1;
+  text-align: center;
 }
 
 .title {
-  font-size: 72px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  margin-bottom: 33px;
   letter-spacing: 4px;
-  color: var(--color-primary);
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  position: relative;
+  font-size: 20vw;
+  color: transparent;
+  -webkit-text-stroke: 3px var(--color-text);
+  background: linear-gradient(
+  180deg, var(--color-1) 30%,
+    var(--color-2) 30%, var(--color-2) 47.5%,
+    var(--color-3) 47.5%, var(--color-3) 65%,
+    var(--color-4) 60%, var(--color-4) 100%
+  );
+  -webkit-background-clip: text;
 }
+
 
 .description {
   font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 200;
   margin-bottom: 52px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 .contactBtn {
-  text-decoration: none;
-  color: var(--color-primary);
-  background-color: rgba(0, 0, 0, 0.0);
-  border: solid 3px var(--color-primary);
-  border-radius: 35px;
   font-size: 30px;
-  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-text);
+  background-color: var(--color-4);
+  border: solid 3px var(--color-text);
+  border-radius: 20px;
   letter-spacing: 1.75px;
-  padding: 17px 25px;
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);
+  padding: 15px 15px;
   transition: 0.5s;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+  letter-spacing: 4px;
 }
 
 .contactBtn:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.heroImg {
-  width: 30vw;
-  border-radius: 50%;
-  background: #c08552;
-  border: 4px solid #f4faff;
+  box-shadow: var(--color-text) 0px 0px 12px;
 }
 
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
     justify-content: space-evenly;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;  
+    min-height: calc(95vh);
   }
 
   .content {
@@ -80,19 +80,16 @@
     margin-bottom: 5vh;
   }
 
-  .title {
-    font-size: 50px;
-    margin-bottom: 0px;
-  }
-
-  .heroImg {
-    width: 45vw;
-    max-width: 40vh;
-    min-width: 100px;
-  }
-
   .description {
     font-size: 19px;
     margin-bottom: 0px;
+  }
+
+  .contactBtn {
+    font-size: 25px;
+  }
+
+  .title {
+    font-size: 166px;
   }
 }
