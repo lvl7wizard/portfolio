@@ -48,18 +48,20 @@
   font-size: 30px;
   text-decoration: none;
   color: var(--color-text);
-  background-color: var(--color-4);
-  border: solid 3px var(--color-text);
+  background-color:  #d37f34;
+  border: solid 2px var(--color-text);
+  text-shadow: 1px 1px 2px black;
   border-radius: 20px;
   letter-spacing: 1.75px;
   padding: 15px 15px;
   transition: 0.5s;
   font-weight: 500;
   letter-spacing: 4px;
+  box-shadow: 0px 0px 4px 1px black inset;
 }
 
 .contactBtn:hover {
-  box-shadow: var(--color-text) 0px 0px 12px;
+  box-shadow: var(--color-text) 0px 0px 12px, 0px 0px 4px 1px black inset;
 }
 
 @media screen and (max-width: 830px) {

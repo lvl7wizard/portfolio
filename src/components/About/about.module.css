@@ -8,6 +8,8 @@
     min-height: 100vh;
     z-index: 1;
     position: relative;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .title {
@@ -33,26 +35,28 @@ p {
 
 .btnContainer {
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 38px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 38px; */
 }
 
 .projectsBtn {
   font-size: 30px;
   text-decoration: none;
   color: var(--color-text);
-  background-color: var(--color-4);
-  border: solid 3px var(--color-text);
+  background-color:  #d37f34;
+  border: solid 2px var(--color-text);
+  text-shadow: 1px 1px 2px black;
   border-radius: 20px;
   letter-spacing: 1.75px;
   padding: 15px 15px;
   transition: 0.5s;
   font-weight: 500;
   letter-spacing: 4px;
+  box-shadow: 0px 0px 4px 1px black inset;
   }
 
   .projectsBtn:hover {
-    box-shadow: var(--color-text) 0px 0px 12px;
+    box-shadow: var(--color-text) 0px 0px 12px, 0px 0px 4px 1px black inset;
   }
 
   .skillsBtn {
@@ -60,23 +64,30 @@ p {
     font-size: 30px;
     text-decoration: none;
     color: var(--color-text);
-    background-color: var(--color-4);
-    border: solid 3px var(--color-text);
+    background-color:  #d37f34;
+    border: solid 2px var(--color-text);
+    text-shadow: 1px 1px 2px black;
     border-radius: 20px;
     letter-spacing: 1.75px;
     padding: 15px 15px;
     transition: 0.5s;
     font-weight: 500;
     letter-spacing: 4px;
+    box-shadow: 0px 0px 4px 1px black inset;
   }
   .skillsBtn:hover {
-    box-shadow: var(--color-text) 0px 0px 12px;
+    box-shadow: var(--color-text) 0px 0px 12px, 0px 0px 4px 1px black inset;
   }
+
+  .scrollable {
+    max-height: 60vh;
+    overflow-y: auto; 
+    }
 
 @media screen and (max-width: 830px) {
     .container {
         width: 80vw;
-        gap: 25px;
+        /* gap: 25px; */
         align-items: center;
     }
 
