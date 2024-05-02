@@ -9,8 +9,7 @@ export const About = () => {
         I picked up coding as a hobby in 2020. I love the combination of making
         things 🎨, problem solving 🕹️, and learning 💡. <br />
         <br />
-        After facing a redunancy in October 2023, I took the opportunity to take
-        coding to take my hobby to the next level by enrolling for a 3-month full-time Software
+        After facing a redunancy in October 2023, I took the opportunity to take my hobby to the next level by enrolling for a 3-month full-time Software
         Engineering bootcamp with a highly-rated organisation called
         Northcoders. <br />
         <br />
