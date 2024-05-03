@@ -6,19 +6,18 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>ABOUT</h2>
       <p className={styles.scrollable}>
-        I picked up coding as a hobby in 2020. I love the combination of making
+        I first picked up coding as a hobby back in 2020, I loved the combination of making
         things 🎨, problem solving 🕹️, and learning 💡. <br />
         <br />
-        After facing a redunancy in October 2023, I took the opportunity to take my hobby to the next level by enrolling for a 3-month full-time Software
-        Engineering bootcamp with a highly-rated organisation called
-        Northcoders. <br />
+        After facing a redunancy in October 2023, I took the opportunity to take my skills to the next level by enrolling for a 3-month full-time Software
+        Engineering bootcamp with a highly-rated organisation called Northcoders. <br />
         <br />
         This course helped me consolidate the fundamentals of frontend and
         backend web development and granted me hands on experience with popular
         industry practices and techniques. <br />
         <br />
         I'm now looking for a professional role where I can utilise my skills and continue
-        learning.
+        along my learning journey.
       </p>
       <div className={styles.btnContainer}>
         <a href="#projects" className={styles.projectsBtn}>

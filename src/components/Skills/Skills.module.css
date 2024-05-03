@@ -28,11 +28,8 @@
 }
 
 .skillsContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* max-height: 60vh; */
-  /* overflow-y: scroll;  */
+  max-height: 60vh;
+  overflow-y: scroll; 
 }
 
 .skills {
