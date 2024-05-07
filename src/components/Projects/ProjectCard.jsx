@@ -8,11 +8,13 @@ export const ProjectCard = ({
     <div className={styles.container}>
       <div className={styles.leftColumn}>
         <h3 className={styles.title}>{title}</h3>
+        <a href={demo}>
         <img
           src={getImageUrl(imageSrc)}
           alt={`image of ${title}`}
           className={styles.image}
         />
+        </a>
       </div>
       <div className={styles.rightColumn}>
         <h3>Description: </h3>
@@ -33,7 +35,7 @@ export const ProjectCard = ({
             Demo
           </a>
           <a href={source} className={styles.link}>
-            Source
+            Github
           </a>
         </div>
       </div>

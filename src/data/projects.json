@@ -1,7 +1,7 @@
 [
     {
       "title": "NC News",
-      "imageSrc": "projects/ncnews_screenshot.jpg",
+      "imageSrc": "projects/ncnews_screenshot.png",
       "description": "A full-stack news application project that allows users to browse, search, and interact with articles stored on a database. The frontend is built on React, it uses techniques such as component-based architecture, state management, routing, and optimistic rendering to enhance the user experience. The backend API creates HTML endpoints to perform secure CRUD operations with an SQL database. The project demonstrates RESTful architecture, Test Driven Development, and the Model-View-Controller Pattern for scalability and maintenance.",
       "skills": ["Javascript", "React", "HTML", "CSS", "Postgres", "Express", "Node"],
       "demo": "https://nc-news-app-dj.netlify.app/",
