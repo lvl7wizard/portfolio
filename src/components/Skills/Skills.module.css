@@ -29,7 +29,7 @@
 
 .skillsContainer {
   max-height: 60vh;
-  overflow-y: scroll; 
+  overflow-y: auto; 
 }
 
 .skills {
