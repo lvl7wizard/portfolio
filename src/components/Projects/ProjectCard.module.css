@@ -5,12 +5,16 @@
   flex-direction: row;
   /* padding-bottom: 60px; */
   gap: 3%;
-  background: rgba(0, 0, 0, 0.6);
-  padding: 3%;
-  border-radius: 20px;
-  border: solid var(--color-text) 2px;
-  width: 100%;
-  max-width: 1500px;
+  /* height: 60vh; */
+  /* background: rgba(0, 0, 0, 0.6); */
+  /* padding: 3%; */
+  /* border-radius: 20px; */
+  /* border: solid var(--color-text) 2px; */
+  /* width: 100%; */
+  /* max-width: 1500px; */
+  height: 60vh;
+      margin-left: 10%;
+    margin-right: 10%;
 }
 
 .leftColumn {
@@ -90,6 +94,7 @@
   .container {
     flex-direction: column;
     gap: 20px;
+    height: auto;
   }
   .image {
     width: 80vw;
