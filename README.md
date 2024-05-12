@@ -1,3 +1,4 @@
+# Portfolio Site
 
-Live address - https://dave-judge-portfolio.netlify.app/
-Color Scheme - https://coolors.co/273043-f4faff-8e4a49-7fb069-c08552
+This is the codebase for my portfolio site.
+The live version of the site can be found [here](https://dave-judge-portfolio.netlify.app/)
