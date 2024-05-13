@@ -41,8 +41,8 @@
   {
     "title": "Tic Tac Toe",
     "imageSrc": "projects/tictactoe_screenshot.jpg",
-    "description": "The classic game of tic tac toe. his classic game is designed for 2 players to engage in the timeless (and seemingly endless) battle between naughts and crosses.",
-    "skills": ["React", "CSS", "HTML"],
+    "description": "A simple game of tic tac toe. This version of the classic game allows 2 players to engage in the timeless battle between naughts and crosses. I have now migrated this project from JavaScript to TypeScript, this is my first project using TypeScript and completing the migratation was a great way for me to learn about types and module support.",
+    "skills": ["React", "TypeScript", "CSS", "HTML"],
     "demo": "https://tictactoedj.netlify.app/",
     "source": "https://github.com/lvl7wizard/tictactoe"
   }
