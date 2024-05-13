@@ -13,7 +13,7 @@ const responsive = {
 
 export const ProjectCarousel = () => {
   return (
-    <Carousel responsive={responsive} showDots={true} infinite={true}> 
+    <Carousel responsive={responsive} showDots={false} infinite={true}> 
       {projects.map((project, id) => {
         return <ProjectCard key={id} project={project}/>
       })}
