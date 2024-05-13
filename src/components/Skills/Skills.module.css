@@ -61,9 +61,6 @@
  width: 65px;
   height: auto;
 }
-/* .skillImageContainer img {
-  width: 65px;
-} */
 
 .skill p {
   font-size: 20px;
@@ -105,10 +102,6 @@
 
   .projectsBtn {
     display: block;
-  }
-
-  .skillsContainer {
-    /* min-height: calc(100vh - 15vw - 106px - 38px); */
   }
 
   .skillImageContainer {
