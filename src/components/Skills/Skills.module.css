@@ -57,9 +57,13 @@
   height: 100px;
 }
 
-.skillImageContainer img {
-  width: 65px;
+.skillsImg {
+ width: 65px;
+  height: auto;
 }
+/* .skillImageContainer img {
+  width: 65px;
+} */
 
 .skill p {
   font-size: 20px;
