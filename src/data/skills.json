@@ -8,20 +8,22 @@
     "imageSrc": "skills/typescript.png"
   },
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
-  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
   {
     "title": "React Native",
     "imageSrc": "skills/reactnative.png"
+  },
+  {"title": "Bootstrap",
+"imageSrc": "skills/bootstrap.png"},
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
   },
   {
     "title": "Node",
