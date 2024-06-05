@@ -1,30 +1,23 @@
-import styles from "./Skills.module.css"
 import skills from "../../data/skills.json";
 import { getImageUrl } from "../../utils";
 
 export const Skills = () => {
   return (
-    <section className={styles.container} id="skills">
-      <h2 className={styles.title}>skills</h2>
-      <div className={styles.skillsContainer}>
-        <div className={styles.skills}>
+    <section className="flex flex-col min-h-screen mx-5vw items-center justify-center text-center content-center text-1xl text-white gap-5" id="skills">
+      <h2 className="text-8xl font-bold text-blue-400 text-shadow-3d-blue">Skills</h2>
+        <div className="flex flex-wrap gap-4 justify-center">
           {skills.map((skill, id) => {
             return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} className={styles.skillsImg} alt={skill.title} />
-                </div>
+              <div key={id} className="flex flex-col items-center">
+                  <img src={getImageUrl(skill.imageSrc)} className="h-16 w-16"  alt={skill.title} />
                 <p>{skill.title}</p>
               </div>
             );
           })}
-        </div>
       </div>
-        <div className={styles.btnContainer}>
-        <a href="#projects" className={styles.projectsBtn}>
-          Projects ↓
-        </a>
-        </div>
+      <a href="#projects">
+      <button type="button" className="text-white bg-gradient-to-r from-yellow-500 to-orange-600 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-red-200 dark:focus:ring-red-800 font-medium rounded-lg px-5 py-2.5 text-center me-2 mb-2">Projects ↓</button>
+      </a>
     </section>
   );
 };
