@@ -1,24 +1,23 @@
 import React, { useState } from "react";
-import styles from "./Navbar.module.css";
-import { getImageUrl } from "../../utils";
+import MenuItems from "./MenuItems";
+import { MenuOutlined } from "@mui/icons-material";
 
 export const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [active, setActive] = useState(false);
+  const showMenu = () => {
+    setActive(!active);
+  };
 
   return (
-    <nav className={styles.navbar}>
-      <div className={styles.menu}>
-        <img
-          className={styles.menuBtn}
-          src={
-            menuOpen
-              ? getImageUrl("nav/menu_close_icon.png")
-              : getImageUrl("nav/menu_icon.png")
-          }
-          alt="menu-btn"
-          onClick={(() => setMenuOpen(!menuOpen))}
-        />
-        <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={() => setMenuOpen(false)}>
+    <div className="fixed top-0 w-full text-white items-center z-10 p-4 md:p-0 md: flex-none">
+      <nav className="flex justify-end md:justify-center">
+        <div className="absolute right-8 top-4 scale-150 md:hidden">
+          <MenuOutlined onClick={showMenu} />
+        </div>
+        <ul className="hidden md:flex gap-8 p-4 uppercase bg-black/90">
+          <li>
+            <a href="#">Home</a>
+          </li>
           <li>
             <a href="#about">About</a>
           </li>
@@ -32,7 +31,8 @@ export const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
         </ul>
-      </div>
-    </nav>
+        <MenuItems showMenu={showMenu} active={active} />
+      </nav>
+    </div>
   );
 };
