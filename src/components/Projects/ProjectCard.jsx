@@ -1,41 +1,44 @@
 import { getImageUrl } from "../../utils";
-import styles from "./ProjectCard.module.css";
 
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
   return (
-    <div className={styles.container}>
-      <div className={styles.leftColumn}>
-        <h3 className={styles.title}>{title}</h3>
+    <div className="p-6 flex flex-col items-center lg:items-start lg:flex-row lg:flex-wrap lg:justify-center">
+      <h3 className="text-6xl font-bold text-white text-shadow-3d-white p-10 w-full lg:text-center">
+        {title}
+      </h3>
+      <div className="lg:w-1/2 lg:pr-6">
         <a href={demo}>
-        <img
-          src={getImageUrl(imageSrc)}
-          alt={`image of ${title}`}
-          className={styles.image}
-        />
+          <img
+            src={getImageUrl(imageSrc)}
+            alt={`image of ${title}`}
+            className="h-auto rounded-md w-full max-w-screen-sm"
+          />
         </a>
       </div>
-      <div className={styles.rightColumn}>
-        <h3>Description: </h3>
-        <p className={styles.description}>{description}</p>
-        <h3>Tech Stack: </h3>
-        <ul className={styles.skills}>
-          {skills.map((skill, id) => {
-            return (
-              <li key={id} className={styles.skill}>
-                {skill}
-              </li>
-            );
-          })}
+      <div className="mt-4 lg:w-1/2 lg:pl-6 lg: self-center">
+        <h3 className="text-lg font-semibold mb-2">Description:</h3>
+        <p className="text-sm mb-4">{description}</p>
+      </div>
+      <div className="mt-4 lg:w-1/2 lg:pr-6">
+        <h3 className="text-lg font-semibold mb-2">Tech Stack:</h3>
+        <ul className="flex flex-wrap gap-2 mb-4 justify-center">
+          {skills.map((skill, id) => (
+            <li key={id} className="bg-blue-700 rounded-full px-3 py-1 text-sm">
+              {skill}
+            </li>
+          ))}
         </ul>
-        <h3>Links:</h3>
-        <div className={styles.links}>
-          <a href={demo} className={styles.link}>
+      </div>
+      <div className="mt-4 lg:w-1/2 lg:pl-6">
+        <h3 className="text-lg font-semibold mb-2">Links:</h3>
+        <div className="flex gap-4 justify-center">
+          <a href={demo} className="bg-red-600 rounded-full px-3 py-1 text-sm hover:underline">
             Demo
           </a>
-          <a href={source} className={styles.link}>
-            Github
+          <a href={source} className="bg-red-600 rounded-full px-3 py-1 text-sm hover:underline">
+            Source
           </a>
         </div>
       </div>

@@ -1,16 +1,14 @@
 import { getImageUrl } from "../../utils";
-import styles from "./Contact.module.css";
 
 export const Contact = () => {
   return (
-    <footer id="contact" className={styles.container}>
-      <div className={styles.text}>
-        <h2>Contact</h2>
-        {/* <p>Feel free to reach out!</p> */}
+    <footer id="contact" className="text-white flex flex-col items-center m-5 gap-3">
+      <div className="">
+        <h2 className="text-4xl">Contact</h2>
       </div>
-      <ul className={styles.links}>
+      <ul className="flex gap-5">
         <li>
-          <a href="mailto:dave.j.judge@gmail.com" target="_blank" className={styles.link}>
+          <a href="mailto:dave.j.judge@gmail.com" target="_blank" className="">
             {" "}
             <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
             Email
@@ -19,7 +17,7 @@ export const Contact = () => {
         <li>
           <a
             href="https://www.linkedin.com/in/dave-judge-ba9a37247" target="_blank"
-            className={styles.link}
+            className=""
           >
             {" "}
             <img
@@ -30,7 +28,7 @@ export const Contact = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.github.com/lvl7wizard" target="_blank" className={styles.link}>
+          <a href="https://www.github.com/lvl7wizard" target="_blank" className="">
             <img
               src={getImageUrl("contact/githubIcon.png")}
               alt="GitHub icon"
