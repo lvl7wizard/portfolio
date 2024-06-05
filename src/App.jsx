@@ -1,8 +1,7 @@
-import styles from "./App.module.css";
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
 import { Skills } from "./components/Skills/Skills";
-import { Hero } from "./components/Hero/Hero";
+import { Home } from "./components/Home/Home";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 import ParticleBackground from "./components/ParticleBackground/ParticleBackground";
@@ -13,16 +12,14 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <div className={styles.App}>
-    <ParticleBackground className = {styles.background} isLoading={isLoading} setIsLoading={setIsLoading}/>
+    <div>
+    <ParticleBackground isLoading={isLoading} setIsLoading={setIsLoading}/>
     {isLoading ? <LoadingScreen/>:
-    <div className={styles.content}>
+    <div>
       <Navbar />
-      <Hero />
-      <div className={styles.aboutSkillsContainer}>
+      <Home />
       <About />
       <Skills/>
-      </div>
       <Projects />
       <Contact />
     </div> }
