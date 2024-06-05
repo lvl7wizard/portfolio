@@ -1,10 +1,7 @@
-import styles from "./LoadingScreen.module.css"
-
 const LoadingScreen = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.loadingSpinner}></div>
-      <h1 className={styles.loadingText}>Loading...</h1>
+    <div className="h-screen flex justify-center items-center text-white">
+      <h1 className="">Loading...</h1>
     </div>
   );
 };
