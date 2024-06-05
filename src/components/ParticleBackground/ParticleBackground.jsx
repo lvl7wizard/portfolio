@@ -12,7 +12,7 @@ const ParticleBackground = ({ isLoading, setIsLoading }) => {
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    // console.log(container);
   };
 
   const options = useMemo(
@@ -52,7 +52,7 @@ const ParticleBackground = ({ isLoading, setIsLoading }) => {
           color: "#ffffff",
           distance: 250,
           enable: true,
-          opacity: 0.1,
+          opacity: 0.075,
           width: 1,
         },
         move: {
@@ -72,13 +72,13 @@ const ParticleBackground = ({ isLoading, setIsLoading }) => {
           value: 200,
         },
         opacity: {
-          value: 0.2,
+          value: 0.3,
         },
         shape: {
           type: "circle",
         },
         size: {
-          value: { min: 1, max: 4 },
+          value: { min: 1, max: 3 },
         },
       },
       detectRetina: true,
@@ -87,7 +87,7 @@ const ParticleBackground = ({ isLoading, setIsLoading }) => {
   );
 
   return (
-    <div style={{ position: "relative", height: "0vh" }}>
+    <div style={{ position: "relative", height: "0vh", zIndex:"-1"}}>
       {/* Fixes a glitch where a canvas briefly alters layout on render */}
       {!isLoading && (
           <Particles
