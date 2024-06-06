@@ -8,30 +8,31 @@ export const Contact = () => {
       </div>
       <ul className="flex gap-5">
         <li>
-          <a href="mailto:dave.j.judge@gmail.com" target="_blank" className="">
+          <a href="mailto:dave.j.judge@gmail.com" target="_blank">
             {" "}
-            <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+            <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" className="transform motion-safe:hover:scale-110"/>
             Email
           </a>
         </li>
         <li>
           <a
             href="https://www.linkedin.com/in/dave-judge-ba9a37247" target="_blank"
-            className=""
           >
             {" "}
             <img
               src={getImageUrl("contact/linkedinIcon.png")}
               alt="LinkedIn icon"
+              className="transform motion-safe:hover:scale-110"
             />
             LinkedIn
           </a>
         </li>
         <li>
-          <a href="https://www.github.com/lvl7wizard" target="_blank" className="">
+          <a href="https://www.github.com/lvl7wizard" target="_blank">
             <img
               src={getImageUrl("contact/githubIcon.png")}
               alt="GitHub icon"
+              className="transform motion-safe:hover:scale-110"
             />{" "}
             Github
           </a>

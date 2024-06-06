@@ -11,7 +11,12 @@ export const Home = () => {
       </p>
 
       <a href="#about">
-      <button type="button" className="text-white bg-gradient-to-r from-yellow-500 to-orange-600 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-red-200 dark:focus:ring-red-800 font-medium rounded-lg px-5 py-2.5 text-center me-2 mb-2">About ↓</button>
+        <button
+          type="button"
+          className="text-white bg-gradient-to-r from-yellow-500 to-orange-600 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-red-200 dark:focus:ring-red-800 font-medium rounded-lg px-5 py-2.5 text-center me-2 mb-2 transform motion-safe:hover:scale-110"
+        >
+          About ↓
+        </button>{" "}
       </a>
     </section>
   );
