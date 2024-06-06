@@ -1,12 +1,12 @@
 export const Home = () => {
   return (
-    <section className="flex flex-col min-h-screen mx-5vw items-center justify-center text-center content-center text-1xl text-white gap-5">
+    <section className="flex flex-col min-h-screen mx-auto max-w-xl p-4 items-center justify-center text-center content-center text-md text-white gap-5 md:gap-10">
       <h1 className="text-9xl font-bold text-blue-400 text-shadow-3d-blue">
         Hi,
       </h1>
       <p>
         I'm Dave, a Junior Software Developer based in Sheffield, UK. Welcome to
-        my portfolio site, here you can find information about my skills and a showcase of my
+        my portfolio, here you can find information about me, my skills and my
         latest projects.
       </p>
 
