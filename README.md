@@ -1,6 +1,6 @@
 # Portfolio Site
 
-Welcome to my portfolio website! This is the codebase for my portfolio site, the live version of the site can be found [here](https://dave-judge-portfolio.netlify.app/). This project showcases my skills, projects, and experience as a Junior Software Developer. It is built to be responsive and interactive, with features that demonstrate my proficiency in modern web development technologies.
+Welcome to my portfolio website! This is the codebase for my portfolio site, the live version can be found [here](https://dave-judge-portfolio.netlify.app/). This project showcases my skills, projects, and experience as a Junior Software Developer. It is built to be responsive and interactive, with features that demonstrate my proficiency in modern web development technologies.
 
 ## Table of Contents
 - **Features**
