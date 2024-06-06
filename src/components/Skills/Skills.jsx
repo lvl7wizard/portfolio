@@ -3,7 +3,7 @@ import { getImageUrl } from "../../utils";
 
 export const Skills = () => {
   return (
-    <section className="flex flex-col min-h-screen mx-5vw items-center justify-center text-center content-center text-1xl text-white gap-5" id="skills">
+    <section className="flex flex-col min-h-screen mx-auto max-w-xl p-4 items-center justify-center text-center content-center text-md text-white gap-5 md:gap-10" id="skills">
       <h2 className="text-8xl font-bold text-blue-400 text-shadow-3d-blue">Skills</h2>
         <div className="flex flex-wrap gap-4 justify-center">
           {skills.map((skill, id) => {
