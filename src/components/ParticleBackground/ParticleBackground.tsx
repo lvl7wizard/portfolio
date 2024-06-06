@@ -1,8 +1,13 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
-const ParticleBackground = ({ isLoading, setIsLoading }) => {
+interface ParticleBackgroundProps {
+  isLoading: boolean;
+  setIsLoading: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const ParticleBackground = ({ isLoading, setIsLoading }: ParticleBackgroundProps) => {
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
@@ -10,10 +15,6 @@ const ParticleBackground = ({ isLoading, setIsLoading }) => {
       setIsLoading(false);
     });
   }, []);
-
-  const particlesLoaded = (container) => {
-    // console.log(container);
-  };
 
   const options = useMemo(
     () => ({
@@ -56,11 +57,11 @@ const ParticleBackground = ({ isLoading, setIsLoading }) => {
           width: 1,
         },
         move: {
-          direction: "none",
+          // direction: "none",
           enable: true,
-          outModes: {
-            default: "bounce",
-          },
+          // outModes: {
+          //   default: "bounce",
+          // },
           random: false,
           speed: 0.9,
           straight: false,
@@ -87,12 +88,10 @@ const ParticleBackground = ({ isLoading, setIsLoading }) => {
   );
 
   return (
-    <div style={{ position: "relative", height: "0vh", zIndex:"-1"}}>
-      {/* Fixes a glitch where a canvas briefly alters layout on render */}
+    <div className="fixed -z-10">
       {!isLoading && (
           <Particles
             id="tsparticles"
-            particlesLoaded={particlesLoaded}
             options={options}
           />
       )}
