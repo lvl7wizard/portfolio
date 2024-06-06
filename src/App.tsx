@@ -1,12 +1,12 @@
-import { About } from "./components/About/About";
-import { Contact } from "./components/Contact/Contact";
-import { Skills } from "./components/Skills/Skills";
-import { Home } from "./components/Home/Home";
-import { Navbar } from "./components/Navbar/Navbar";
-import { Projects } from "./components/Projects/Projects";
 import ParticleBackground from "./components/ParticleBackground/ParticleBackground";
-import { useState } from "react";
 import LoadingScreen from "./components/Loading/LoadingScreen";
+import { Navbar } from "./components/Navbar/Navbar";
+import { Home } from "./components/Home/Home";
+import { About } from "./components/About/About";
+import { Skills } from "./components/Skills/Skills";
+import { Projects} from "./components/Projects/Projects";
+import { Contact } from "./components/Contact/Contact";
+import { useState } from "react";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);

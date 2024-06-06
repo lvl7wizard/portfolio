@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import MenuItems from "./MenuItems";
+import { useState } from "react";
+import MenuItems from "./MenuItems/MenuItems";
 import { MenuOutlined } from "@mui/icons-material";
 
 export const Navbar = () => {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState<boolean>(false);
   const showMenu = () => {
     setActive(!active);
   };
@@ -13,7 +13,10 @@ export const Navbar = () => {
       <nav className="flex justify-between items-center">
         <div className="text-xl p-4 font-bold hidden md:block">Dave Judge</div>
         <div className="md:hidden">
-          <MenuOutlined onClick={showMenu} className="fixed right-6 top-6 scale-150 cursor-pointer" />
+          <MenuOutlined
+            onClick={showMenu}
+            className="fixed right-6 top-6 scale-150 cursor-pointer"
+          />
         </div>
         <ul className="hidden md:flex gap-8 p-4">
           <li>

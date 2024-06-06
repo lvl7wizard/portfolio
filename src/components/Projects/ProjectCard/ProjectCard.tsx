@@ -1,8 +1,19 @@
-import { getImageUrl } from "../../utils";
+import { getImageUrl } from "../../../utils";
+
+interface ProjectCardProps {
+  project: {
+    title: string;
+    imageSrc: string;
+    description: string;
+    skills: string[];
+    demo: string; // Assuming demo is a string URL
+    source: string; // Assuming source is a string URL
+  };
+}
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
-}) => {
+  project: { title, imageSrc, description, skills, demo, source }
+}: ProjectCardProps) => {
   return (
     <div className="flex flex-col items-center">
       <h3 className="text-5xl font-bold text-white text-shadow-3d-white p-5 w-full">
