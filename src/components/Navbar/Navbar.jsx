@@ -9,12 +9,13 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 w-full text-white items-center z-10 p-4 md:p-0 md: flex-none">
-      <nav className="flex justify-end md:justify-center">
-        <div className="absolute right-8 top-4 scale-150 md:hidden">
-          <MenuOutlined onClick={showMenu} />
+    <div className="fixed top-0 w-full text-white items-center z-10 p-0 bg-transparent md:bg-black/90">
+      <nav className="flex justify-between items-center">
+        <div className="text-xl p-4 font-bold hidden md:block">Dave Judge</div>
+        <div className="md:hidden">
+          <MenuOutlined onClick={showMenu} className="fixed right-6 top-6 scale-150 cursor-pointer" />
         </div>
-        <ul className="hidden md:flex gap-8 p-4 uppercase bg-black/90">
+        <ul className="hidden md:flex gap-8 p-4">
           <li>
             <a href="#">Home</a>
           </li>
