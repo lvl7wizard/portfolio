@@ -1,6 +1,11 @@
 import {Close} from "@mui/icons-material"
 
-const MenuItems = ({showMenu, active}) => {
+interface MenuItemsProps {
+  showMenu: () => void,
+  active: boolean
+}
+
+const MenuItems = ({showMenu, active}: MenuItemsProps) => {
   return (
     <ul className={active ? "flex-col flex items-center fixed inset-0 justify-center bg-black/50 backdrop-blur-sm gap-8 p-8 text-2xl md:hidden" : "hidden"}>
         <Close className="fixed top-6 right-6 scale-150" onClick={showMenu}/>
