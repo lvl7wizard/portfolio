@@ -11,7 +11,7 @@ export const Projects = () => {
         <a href="#">
           <button
             type="button"
-            className="text-white bg-gradient-to-r mt-5 from-yellow-500 to-orange-600 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-red-200 dark:focus:ring-red-800 font-medium rounded-lg px-6 py-3 text-center mb-8"
+            className="text-white bg-gradient-to-r mt-5 from-yellow-500 to-orange-600 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-red-200 dark:focus:ring-red-800 font-medium rounded-lg px-6 py-3 text-center mb-8 transform motion-safe:hover:scale-110"
           >
             To the top ↑
           </button>
