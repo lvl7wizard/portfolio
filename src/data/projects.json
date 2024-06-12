@@ -2,18 +2,29 @@
   {
     "title": "NC News",
     "imageSrc": "projects/ncnews_screenshot.png",
-    "description": "The aim of this project was to create a fullstack application featuring an API and an intuitive user interface. NC News mimics various features found on social news platforms such as the ability for users to browse, search, post, and interact with articles stored on a database. The frontend is built with React and uses techniques such as component-based architecture, state management, routing, and optimistic rendering to enhance the user experience. The backend API is built using JavaScript and Express, it creates a series of HTML endpoints that perform secure CRUD operations with an SQL database and demonstrates RESTful architecture, Test Driven Development, and the Model-View-Controller Pattern for scalability and maintenance.",
+    "description": "NC News is a React-based frontend web application that provides an intuitive and interactive user interface for browsing, searching, posting, and interacting with news articles. This frontend mimics features found on popular social news platforms. Built with React, it utilises a component-based architecture, state management, routing, and optimistic rendering to enhance user experience. The frontend interacts seamlessly with the backend API, allowing users to perform actions like upvoting articles, posting comments, and managing user profiles.",
     "skills": [
       "Javascript",
       "React",
       "HTML",
       "CSS",
+      "Axios"
+    ],
+    "demo": "https://nc-news-app-dj.netlify.app/",
+    "source": "https://github.com/lvl7wizard/nc-news"
+  },
+  {
+    "title": "News API",
+    "imageSrc": "projects/newsapi_screenshot.png",
+    "description": "News API is a JavaScript-based API built with Express that supports a news application by providing robust backend functionality. It allows users to interact with a PostgreSQL database through secure CRUD operations. The backend architecture follows RESTful principles, using the Model-View-Controller (MVC) pattern for scalability and maintainability. This project showcases Test Driven Development (TDD) and handles a variety of operations such as the creation, deletion, and comment handling of articles management. Please note, this APi is hosted on Render and may take upto a minute to wake up if requests haven't been made recently",
+    "skills": [
+      "Javascript",
       "PostgreSQL",
       "Express",
       "Node"
     ],
-    "demo": "https://nc-news-app-dj.netlify.app/",
-    "source": "https://github.com/lvl7wizard/nc-news"
+    "demo": "https://news-app-mk4i.onrender.com/api",
+    "source": "https://github.com/lvl7wizard/news-api"
   },
   {
     "title": "Plant Pal",
