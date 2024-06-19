@@ -2,14 +2,8 @@
   {
     "title": "NC News",
     "imageSrc": "projects/ncnews_screenshot.png",
-    "description": "NC News is a React-based frontend web application that provides an interactive interface allowing users to browse, search, like, post, and comment on news articles sourced from a database. Built with React, it utilises features such as component-based architecture, state management, routing, and optimistic rendering to enhance user experience. Limitations: The project does not yet support a fully secure account login and creation system, however, demo accounts are available as instructed on the landing page. The backend API is hosted on a free server, which may take a minute to wake up if requests haven't been made recently.",
-    "skills": [
-      "Javascript",
-      "React",
-      "HTML",
-      "CSS",
-      "Axios"
-    ],
+    "description": "NC News is a React-based frontend web application that provides an interactive interface allowing users to browse, search, like, post, and comment on news articles sourced from a database. Built with React, it utilises features such as component-based architecture, state management, routing, and optimistic rendering to enhance user experience. I used this project as a chance to explore the capabilties of the Bootstrap frontend framework. Limitations: The project does not yet support a fully secure account login and creation system, however, demo accounts are available as instructed on the home page. The backend API is hosted on a free server, which may take a minute to wake up if requests haven't been made recently.",
+    "skills": ["Javascript", "React", "HTML", "CSS", "Axios"],
     "demo": "https://nc-news-app-dj.netlify.app/",
     "source": "https://github.com/lvl7wizard/nc-news"
   },
@@ -17,12 +11,7 @@
     "title": "News API",
     "imageSrc": "projects/newsapi_screenshot.png",
     "description": "News API is a JavaScript-based API built with Express that supports a news application by providing backend functionality. It allows users to interact with a PostgreSQL database through secure CRUD operations. The backend follows RESTful principles and the MVC pattern for scalability and maintainability. This project showcases TDD (Test Driven Development) and handles various operations such as article creation, deletion, and comment management. Limitations: The API is hosted on Render and may take up to a minute to wake up if requests haven't been made recently.",
-    "skills": [
-      "Javascript",
-      "PostgreSQL",
-      "Express",
-      "Node"
-    ],
+    "skills": ["Javascript", "PostgreSQL", "Express", "Node"],
     "demo": "https://news-app-mk4i.onrender.com/api",
     "source": "https://github.com/lvl7wizard/news-api"
   },
