@@ -2,11 +2,6 @@
 
 This is the codebase for my portfolio site, the live version can be found [here](https://dave-judge-portfolio.netlify.app/). This project showcases my skills, projects, and experience as a Junior Software Developer. It is built to be responsive and interactive, with features that demonstrate my proficiency in modern web development technologies.
 
-## Table of Contents
-- **Features**
-- **Technologies Used**
-- **Setup**
-
 ## Features
 - Responsive Design: The site is fully responsive and works on all device sizes.
 - Dynamic Navbar: The navbar adapts to the size of the window, providing a pleasing user experience across devices.
