@@ -5,7 +5,7 @@ export const Home = () => {
         Hi,
       </h1>
       <p>
-        I'm Dave, a Junior Software Developer based in Sheffield, UK. Welcome to
+        I'm Dave, a Software Engineer based in Sheffield, UK. Welcome to
         my portfolio, here you can find information about me, my skills and my
         latest projects.
       </p>

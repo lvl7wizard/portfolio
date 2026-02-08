@@ -8,15 +8,12 @@ export const About = () => {
         About
       </h2>
       <p>
-        🚀 My journey into coding began as a hobby in 2020, driven by a passion for
-        creation, problem-solving, and continuous learning.
+        Coding began as a hobby for me in 2020, driven by a passion for
+        creation, problem-solving, and continuous learning.         In March 2024, I completed a 13-week full-time Software Engineering
+        bootcamp at Northcoders where I learnt about front-end and back-end web technologies.
       </p>
       <p>
-        🎓 In March 2024, I graduated from a 13-week full-time Software Engineering
-        bootcamp at Northcoders where I solidified my understanding of front-end and back-end web technologies.
-      </p>
-      <p>
-        🌱 I'm now excited to utilise and continue to develop my skills as I begin my career as a Junior Developer.
+        I am currently working as an Associate Software Consultant for a Global "Big Four" Consultancy firm. Here I work as a QA Engineer, specialising in API and UI testing using Java, Selenium, and Cucumber.
       </p>
       <div>
         <a href="#skills">
